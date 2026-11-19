@@ -994,6 +994,23 @@ body { background: var(--ds-page); }
 .hero-phone { display: inline-block; margin-top: 10px; color: rgba(255,255,255,0.92); font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
 </style><style>
 /* ===== Spirit royal-blue & gold theme ===== */
+/* Antique welcome folio */
+.file-header {
+    background: linear-gradient(165deg, #f8f0db 0%, #f2e6c8 55%, #edd9ae 100%) !important;
+    border: 1px solid rgba(190,152,60,.55) !important;
+    border-radius: 16px;
+    box-shadow: inset 0 0 60px rgba(120,85,20,.18), 0 6px 22px rgba(0,0,0,.38);
+    padding: 22px 20px;
+    --ink: #2e2a55; --ds-foreground-1: #2e2a55; --ds-foreground-2: rgba(46,42,85,.80); --ds-foreground-3: rgba(46,42,85,.55);
+}
+.file-title {
+    font-family: 'Suez One', 'Frank Ruhl Libre', serif !important;
+    color: #8a6a1c !important;
+    text-shadow: 0 0 14px rgba(154,116,32,.30), 0 1px 2px rgba(255,255,255,.5);
+    font-size: clamp(26px, 6.5vw, 32px) !important;
+}
+.file-intro { color: var(--ds-foreground-2) !important; font-family: 'Frank Ruhl Libre', 'Heebo', serif; font-size: 15.5px; line-height: 1.8; }
+
 /* Mystery layer: vignette, candle glow, drifting dust, reveal on scroll */
 body::after {
     box-shadow: inset 0 0 170px 40px rgba(6,9,26,.82);
@@ -1122,7 +1139,7 @@ body::after {
     background-position: left top;
     background-size: auto 6px;
 }
-.file-group-heading::after {
+.file-group-heading::after, .file-title::after {
     content: ""; display: block; width: 150px; height: 18px; margin-top: 8px;
     background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27150%27%20height%3D%2718%27%20viewBox%3D%270%200%20150%2018%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%23d4af37%27%20stroke-width%3D%271.8%27%20opacity%3D%27.6%27%20stroke-linecap%3D%27round%27%3E%3Cpath%20d%3D%27M4%209%20C22%202%2036%202%2052%209%27%2F%3E%3Cpath%20d%3D%27M98%209%20C114%202%20128%202%20146%209%27%2F%3E%3Ccircle%20cx%3D%274%27%20cy%3D%279%27%20r%3D%271.8%27%20fill%3D%27%23d4af37%27%20stroke%3D%27none%27%2F%3E%3Ccircle%20cx%3D%27146%27%20cy%3D%279%27%20r%3D%271.8%27%20fill%3D%27%23d4af37%27%20stroke%3D%27none%27%2F%3E%3Crect%20x%3D%2771%27%20y%3D%275%27%20width%3D%278%27%20height%3D%278%27%20transform%3D%27rotate%2845%2075%209%29%27%20fill%3D%27%23d4af37%27%20stroke%3D%27none%27%20opacity%3D%27.8%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat left center / 150px 18px;
 }
