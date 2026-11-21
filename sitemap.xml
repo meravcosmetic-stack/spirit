@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://meravcosmetic-stack.github.io/spirit/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://meravcosmetic-stack.github.io/spirit/</loc><xhtml:link rel="alternate" hreflang="he" href="https://meravcosmetic-stack.github.io/spirit/"/><xhtml:link rel="alternate" hreflang="ru" href="https://meravcosmetic-stack.github.io/spirit/ru/"/><xhtml:link rel="alternate" hreflang="en" href="https://meravcosmetic-stack.github.io/spirit/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://meravcosmetic-stack.github.io/spirit/"/></url>
+<url><loc>https://meravcosmetic-stack.github.io/spirit/ru/</loc><xhtml:link rel="alternate" hreflang="he" href="https://meravcosmetic-stack.github.io/spirit/"/><xhtml:link rel="alternate" hreflang="ru" href="https://meravcosmetic-stack.github.io/spirit/ru/"/><xhtml:link rel="alternate" hreflang="en" href="https://meravcosmetic-stack.github.io/spirit/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://meravcosmetic-stack.github.io/spirit/"/></url>
+<url><loc>https://meravcosmetic-stack.github.io/spirit/en/</loc><xhtml:link rel="alternate" hreflang="he" href="https://meravcosmetic-stack.github.io/spirit/"/><xhtml:link rel="alternate" hreflang="ru" href="https://meravcosmetic-stack.github.io/spirit/ru/"/><xhtml:link rel="alternate" hreflang="en" href="https://meravcosmetic-stack.github.io/spirit/en/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://meravcosmetic-stack.github.io/spirit/"/></url>
 <url><loc>https://meravcosmetic-stack.github.io/spirit/certificates.html</loc></url>
 </urlset>
